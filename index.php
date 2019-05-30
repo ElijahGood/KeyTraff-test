@@ -50,13 +50,18 @@
 </head>
 <body>
 
-    <header>
-        <a class="logo">KeyTraff</a>
-        <!-- <div class="header-right">
-             <a href="#orders">orders</a>
-            <a href="#products">products</a> 
-        </div> -->
-    </header>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                <a class="navbar-brand" href="#">KeyTraff</a>
+                </div>
+                 <!-- <ul class="nav navbar-nav">
+                    <li><a href="#orders">Orders</a></li>
+                    <li><a href="#products">Products</a></li>
+                </ul>  -->
+            </div>
+        </nav>
+
     <div class="container">
         <div id="buttons-container">
             <button type="button" class="btn btn-info btn-block" id="get_orders" >1) Заказы</button>
